@@ -29,6 +29,12 @@ export default {
    agregarECM(){
      this.dato = Object.assign({},this.dato, {segundoAp: 'Gil'})
    }
+  },
+  created(){
+    console.log('created...');
+  },
+  mounted(){
+    console.log('mounted...');
   }
 }
 </script>
